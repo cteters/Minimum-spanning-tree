@@ -15,6 +15,7 @@ Or with O.S. specific information and run as a Python3 file.
 example execution: 
 
 python3 prim.py city-pairs.txt
+
 python3 kruskal.py city-pairs.txt
 
 ~Cheers!
