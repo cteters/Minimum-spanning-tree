@@ -129,6 +129,7 @@ with open(file_name) as f:
    for i in f:
        column = i.strip().split(' ')
        wc_graph[int(vert_list.index(column[0]))][int(vert_list.index(column[1]))]=int(column[2])
+       wc_graph[int(vert_list.index(column[1]))][int(vert_list.index(column[0]))]=int(column[2])
 f.close()
 
 # run prim's algorithm to find the minimum spanning tree
